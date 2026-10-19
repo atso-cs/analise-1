@@ -33,7 +33,13 @@ Em $x\to+\infty$, consideramos valores positivos cada vez maiores; em $x\to-\inf
 
 $0/0$ é uma **indeterminação**, não um número nem a resposta. Por exemplo, quando $x\to0$, $x/x\to1$, $x^2/x\to0$ e $x/x^2=1/x$ não tem limite bilateral finito.
 
-O limite depende dos valores próximos do ponto. A igualdade $ (x-a)g(x)/((x-a)h(x))=g(x)/h(x)$ vale onde $x\ne a$ e os denominadores não são zero; isso basta para calcular o limite, mesmo que a expressão inicial não esteja definida em $a$.
+O limite depende dos valores próximos do ponto. A igualdade
+
+```math
+\frac{(x-a)g(x)}{(x-a)h(x)}=\frac{g(x)}{h(x)}
+```
+
+vale onde $x\ne a$ e os denominadores não são zero; isso basta para calcular o limite, mesmo que a expressão inicial não esteja definida em $a$.
 
 ## 2. Conjugados e diferenças de quadrados
 
@@ -95,13 +101,13 @@ Por outro lado, $a^4-9=(a^2-3)(a^2+3)$ é diretamente uma diferença de quadrado
 
 Calcular $\lim_{x\to8}(\sqrt[3]{x}-2)/(x-8)$. A substituição direta dá $0/0$. Tomar $t=\sqrt[3]{x}$; então $x=t^3$ e $t\to2$. A raiz cúbica é contínua e esta mudança tem inversa $x=t^3$, por isso representa a aproximação original.
 
-$
+```math
 \frac{\sqrt[3]{x}-2}{x-8}
 =\frac{t-2}{t^3-2^3}
 =\frac{t-2}{(t-2)(t^2+2t+4)}
 =\frac1{t^2+2t+4},
 \qquad t\ne2.
-$
+```
 
 O denominador restante tende a $4+4+4=12$, logo o limite é $1/12$. A soma $t^2+2t+4=(t+1)^2+3$ é sempre positiva. Para uma raiz cúbica, este produto elimina o radical usando a diferença de cubos; o conjugado de duas parcelas foi útil no exemplo da raiz quadrada.
 
@@ -213,9 +219,9 @@ Estes exercícios são análogos, não enunciados confirmados da ficha 3.8. Apre
 
 Calcula:
 
-$
+```math
 \lim_{x\to9}\frac{\sqrt{x}-3}{x-9}.
-$
+```
 
 Indica o domínio da expressão e explica por que podes cancelar um fator que se anula em $x=9$.
 
@@ -223,9 +229,9 @@ Indica o domínio da expressão e explica por que podes cancelar um fator que se
 
 Calcula:
 
-$
+```math
 \lim_{x\to1}\frac{\sqrt[4]{x}-1}{\sqrt[6]{x}-1}.
-$
+```
 
 Escolhe uma mudança de variável com o MMC dos índices. Regista a nova tendência e justifica a substituição final.
 
@@ -233,9 +239,9 @@ Escolhe uma mudança de variável com o MMC dos índices. Regista a nova tendên
 
 Calcula:
 
-$
+```math
 \lim_{x\to-\infty}\frac{\cos(3x)}x.
-$
+```
 
 Usa uma estimativa com valor absoluto. Depois verifica a tendência de $y=1/x$ e de $u=-y$, e explica por que um limite notável no zero não se aplica diretamente à expressão original.
 

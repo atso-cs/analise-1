@@ -54,3 +54,10 @@ Começar pela tentativa de R1, ou pela dúvida pontual que o aluno trouxer. Depo
 - O repositório foi consultado antes da primeira integração e estava vazio e privado.
 - Foram registadas as preferências de tutoria e de formatação para futuras sessões.
 - Os exemplos reconstruídos estão distinguidos dos enunciados confirmados.
+
+## Verificação da apresentação — 19 de outubro de 2026
+
+- Confirmado o envio dos cinco ficheiros e a correspondência entre o conteúdo preparado e o guardado no GitHub.
+- Conferida a aba Preview no GitHub: a matriz de exemplo aparece com duas linhas, e a soma com expoentes e as expressões com raízes renderizam.
+- Conferidas as fatorizações dos exemplos com índices 3 e 4 e com índices 5 e 3.
+- Mantida a notação matemática correta, incluindo as duas barras entre linhas da matriz, sem alterar fórmulas por pequenas diferenças visuais no tamanho dos parênteses.
