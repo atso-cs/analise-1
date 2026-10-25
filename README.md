@@ -7,14 +7,21 @@ O objetivo é compreender a matéria, preparar notas para o caderno e ganhar aut
 ## Índice
 
 - [Limites e radicais — ficha 3.8 e exemplos análogos](notas/limites-e-radicais.md)
+- [Limites trigonométricos, sucessões e confronto — 3.8(o–r), 3.9–3.11](notas/limites-trigonometricos-e-sucessoes.md)
+- [Continuidade, funções por ramos e prolongamento — 3.12 e interpretação de 3.13(a)](notas/continuidade-e-prolongamento.md)
+- [Ficha de exercícios original (PDF)](materiais/Ficha_exercicios.pdf)
 - [Progresso, dúvidas e exercícios pendentes](PROGRESSO.md)
 - [Orientações de tutoria e atualização](AGENTS.md)
 - [Formatação matemática para o GitHub](orientacoes/formatacao-matematica.md)
 
-## Ponto de partida
+## Onde retomar
 
-O estudo registado abrange indeterminação 0/0, conjugados, diferenças de potências, mudanças de variável com raízes, limites laterais e teorema do confronto.
+Parámos na **interpretação do 3.13(a)**: analisar se a função do 3.12(e) admite prolongamento contínuo a zero. A ideia de escolher um valor para a função em zero foi explicada; os limites laterais e a conclusão ficam para a próxima tentativa do aluno.
 
-A conversa recuperada não contém todos os enunciados da ficha 3.8. A correspondência das alíneas j), d) e c) permanece por confirmar; os exemplos reconstruídos estão identificados como tal. A alínea l) é associada na transcrição ao limite de seno dividido por x quando x tende a mais infinito.
+O estudo registado inclui limites com radicais, limites notáveis e mudanças de variável, regra de L’Hôpital, critério de sucessões, confronto, domínios e continuidade. As notas distinguem tentativas do aluno, resoluções construídas com ajuda e explicações apenas apresentadas; não constituem um solucionário completo da ficha.
 
-Última atualização do conteúdo de estudo: **19 de outubro de 2026**.
+A ficha recebida permitiu confirmar os enunciados de 3.8(c), (d) e (j). O exemplo antigo com raízes de índices 3 e 4 corresponde a (d); o de índices 5 e 3 mantém-se como exemplo análogo, sem o atribuir a outra alínea.
+
+Usar notação internacional nas fórmulas: $\sin$, $\tan$, $\arcsin$ e $\arctan$. A próxima sessão está prevista pelo aluno para **25 de outubro de 2026**. As notas só serão novamente atualizadas quando o aluno pedir.
+
+Última atualização do conteúdo de estudo: **24 de outubro de 2026**.

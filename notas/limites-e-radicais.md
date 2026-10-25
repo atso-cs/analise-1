@@ -1,19 +1,29 @@
 # Análise Matemática I — Limites e radicais
 
-Apontamentos de estudo — 19 de outubro de 2026.
+Apontamentos de estudo — 19 de outubro de 2026. Enunciados e notação revistos em 24 de outubro de 2026.
 
 [Índice](../README.md) · [Progresso e pendências](../PROGRESSO.md)
 
 ## Origem e estado
 
-Base: conversa «Resolver limite com radicais», referente à ficha 3.8. A recuperação disponível inclui transcrições incompletas e respostas antigas sem conteúdo legível. Por isso, as expressões reconstruídas abaixo estão identificadas como exemplos compatíveis, sem lhes atribuir uma alínea não confirmada.
+Base: conversa «Resolver limite com radicais», referente à ficha 3.8. A recuperação inicial estava incompleta. A [ficha original](../materiais/Ficha_exercicios.pdf), recebida nesta conversa e conferida em 24 de outubro de 2026, permitiu confirmar os enunciados abaixo (página numerada 5, página 7 do PDF).
 
-| Alínea pedida | Estado |
+| Alínea | Confirmação e estado |
 | --- | --- |
-| j), d), c) | Enunciados completos e correspondência com os exemplos por confirmar na ficha original. |
-| l) | A transcrição associa esta alínea a $\lim_{x\to+\infty}\mathrm{sen}(x)/x$. Resolvida abaixo. |
+| c) | Quociente de diferenças de potências 4 e 3 em 1; enunciado confirmado, sem tentativa verificável recuperada para esta alínea. |
+| d) | Raízes de índices 3 e 4 em 1; corresponde ao primeiro exemplo da secção 4, cujo resultado é 4/3. |
+| j) | Raízes quadrada e cúbica de 1+x em zero; enunciado confirmado. Não corresponde ao exemplo com índices 5 e 3. |
+| l) | Seno dividido por x no infinito; enunciado confirmado e resolução na secção 6. |
 
-Não constitui uma transcrição integral das soluções originais.
+Enunciados de c) e j), guardados para retoma sem lhes atribuir uma resolução antiga não recuperada:
+
+```math
+\lim_{x\to1}\frac{x^4-1}{x^3-1},
+\qquad
+\lim_{x\to0}\frac{\sqrt{1+x}-1}{\sqrt[3]{1+x}-1}.
+```
+
+O exemplo de índices 5 e 3 permanece como exemplo análogo. Confirmar o enunciado não comprova que o aluno tenha resolvido a alínea autonomamente.
 
 ## Ideia e notação
 
@@ -115,7 +125,7 @@ O denominador restante tende a $4+4+4=12$, logo o limite é $1/12$. A soma $t^2+
 
 Para raízes de índices $p$ e $q$ de uma mesma variável positiva, escolher $m=\mathrm{mmc}(p,q)$ e $t=\sqrt[m]{x}$, portanto $x=t^m$. Então $\sqrt[p]{x}=t^{m/p}$ e $\sqrt[q]{x}=t^{m/q}$. Perto de $x=1$, temos $t\to1$. Se aparecerem raízes pares, respeitar o domínio e a raiz principal não negativa. Fora desta situação, verificar os sinais antes de aplicar o procedimento.
 
-### Exemplo compatível com a transcrição: índices 3 e 4
+### Alínea d), confirmada na ficha: índices 3 e 4
 
 ```math
 \lim_{x\to1}\frac{\sqrt[3]{x}-1}{\sqrt[4]{x}-1}.
@@ -136,7 +146,7 @@ Para $t\ne1$, cancelar $t-1$. O denominador restante tende a 3, pelo que:
 
 Não é necessário voltar a $x$: o limite já foi calculado na nova variável. Para regressar à variável original, seria preciso usar $t=x^{1/12}$. Renomear uma variável muda apenas a letra; não desfaz a substituição.
 
-### Exemplo compatível com a transcrição: índices 5 e 3
+### Exemplo análogo: índices 5 e 3
 
 ```math
 \lim_{x\to1}\frac{\sqrt[5]{x}-1}{\sqrt[3]{x}-1}.
@@ -183,19 +193,19 @@ pelo limite notável $\lim_{u\to0}(e^u-1)/u=1$. A substituição é $y=-u$, não
 
 ## 6. Alínea l): seno dividido por x no infinito
 
-Queremos calcular $\lim_{x\to+\infty}\mathrm{sen}(x)/x$.
+Queremos calcular $\lim_{x\to+\infty}\sin(x)/x$.
 
 O seno oscila, mas permanece entre -1 e 1. Como $x>0$ para valores suficientemente grandes:
 
 ```math
--\frac1x\le\frac{\mathrm{sen} x}{x}\le\frac1x.
+-\frac1x\le\frac{\sin x}{x}\le\frac1x.
 ```
 
 Os dois extremos tendem a zero. Pelo **teorema do confronto**, o limite é **0**.
 
-Também se pode usar $y=1/x$: $y\to0^+$ e a expressão passa a $y\mathrm{sen}(1/y)$. Como $|y\mathrm{sen}(1/y)|\le |y|\to0$, obtém-se o mesmo resultado.
+Também se pode usar $y=1/x$: $y\to0^+$ e a expressão passa a $y\sin(1/y)$. Como $|y\sin(1/y)|\le |y|\to0$, obtém-se o mesmo resultado.
 
-Não aplicar aqui o limite notável $\mathrm{sen} u/u\to1$, que exige $u\to0$ (ângulos em radianos). Se $u=1/y$ e $y\to0^+$, então $u\to+\infty$; essa segunda substituição regressa ao problema inicial. Também não se justifica a resposta por «$\mathrm{sen}(+\infty)$»: o seno não tem limite no infinito.
+Não aplicar aqui o limite notável $\sin u/u\to1$, que exige $u\to0$ (ângulos em radianos). Se $u=1/y$ e $y\to0^+$, então $u\to+\infty$; essa segunda substituição regressa ao problema inicial. Também não se justifica a resposta por «$\sin(+\infty)$»: o seno não tem limite no infinito.
 
 Para uma resposta escrita, indicar a desigualdade e o teorema dá uma justificação completa. A exigência concreta de uma frequência depende dos critérios do docente, que não foram fornecidos.
 
@@ -249,4 +259,4 @@ Usa uma estimativa com valor absoluto. Depois verifica a tendência de $y=1/x$ e
 
 As estratégias e correções estão registadas acima. A compreensão autónoma será confirmada pelas tuas resoluções, sem presumir que uma explicação lida já foi dominada.
 
-Falta consultar a ficha 3.8 para confirmar os enunciados de j), d) e c), associar os exemplos às alíneas e completar o que faltar. O registo atualizado de onde parámos, das dúvidas e dos exercícios pendentes encontra-se em [PROGRESSO.md](../PROGRESSO.md).
+Os enunciados de 3.8(c), (d) e (j) foram confirmados na ficha. As tentativas de (c) e (j) não foram recuperadas, e R1–R3 continuam sem tentativa registada. A sessão avançou para limites trigonométricos, continuidade e interpretação do 3.13(a); consultar [PROGRESSO.md](../PROGRESSO.md) para o ponto de retoma e o estado de cada exercício.

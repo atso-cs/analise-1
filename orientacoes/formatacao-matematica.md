@@ -1,6 +1,6 @@
 # Formatação matemática para o GitHub
 
-Preferências registadas em 19 de outubro de 2026, a partir da experiência do aluno com o repositório de Álgebra Linear.
+Preferências registadas em 19 de outubro de 2026, a partir da experiência do aluno com o repositório de Álgebra Linear, e atualizadas em 24 de outubro de 2026.
 
 ## Regras
 
@@ -8,7 +8,7 @@ Preferências registadas em 19 de outubro de 2026, a partir da experiência do a
 2. Usar blocos cercados com a linguagem `math` para equações em destaque e matrizes. Não colocar `$$` dentro desses blocos.
 3. Colocar matrizes fora dos parágrafos e preservar `\\` como separador entre linhas. Uma passagem anterior pelo processamento Markdown retirou uma barra e juntou as linhas.
 4. Para expressões simples no texto, usar delimitadores de dólar simples, como em $x\ne a$.
-5. Na pré-visualização usada anteriormente, o comando `\operatorname` foi rejeitado. Usar `\mathrm{tr}`, `\mathrm{car}`, `\mathrm{adj}` e `\mathrm{mmc}` para esses nomes. Para seno em português, usar `\mathrm{sen}`; não depender de um comando personalizado `\sen`.
+5. Na pré-visualização usada anteriormente, o comando `\operatorname` foi rejeitado. Usar `\mathrm{tr}`, `\mathrm{car}`, `\mathrm{adj}` e `\mathrm{mmc}` para esses nomes. Por pedido do aluno em 24 de outubro, usar notação trigonométrica internacional: `\sin`, `\cos`, `\tan`, `\arcsin`, `\arccos` e `\arctan`, além de `\sinh` e `\cosh` para as funções hiperbólicas. A preferência aplica-se ao chat e ao GitHub e substitui a indicação anterior de seno em português nas fórmulas.
 6. Conferir a pré-visualização após o primeiro envio, incluindo a matriz abaixo e as fórmulas mais complexas. Ler o Raw confirma a fonte, mas não a apresentação.
 7. Manter a notação correta mesmo que o navegador mostre pequenas imperfeições no tamanho dos parênteses. Não alterar fórmulas corretas apenas para perseguir esse detalhe visual.
 8. Ao exportar para outro visualizador ou PDF, adaptar os delimitadores ao destino, preservando as fórmulas.
@@ -56,7 +56,7 @@ O cancelamento implícito na última passagem é válido para $t\ne1$, numa vizi
 ```math
 \mathrm{mmc}(3,5)=15,
 \qquad
--\frac1x\le\frac{\mathrm{sen}(x)}x\le\frac1x
+-\frac1x\le\frac{\sin(x)}x\le\frac1x
 \quad (x>0).
 ```
 
