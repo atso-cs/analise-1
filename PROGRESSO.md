@@ -1,12 +1,14 @@
 # Progresso de estudo — Análise Matemática I
 
-Última atualização: **26 de outubro de 2026**, com o estudo da sessão de **25 de outubro**.
+Última atualização: **26 de outubro de 2026**, incluindo o estudo dessa sessão.
 
 ## Onde parámos
 
-**3.22: demonstrar que $x-\ln x=2$ tem pelo menos duas soluções.** Foi apresentada uma prova por Bolzano, escolhendo $e^{-2}$, $1$ e $e^2$ para obter sinais positivo, negativo e positivo. O aluno encerrou a sessão depois dessa explicação; uma nova execução autónoma ainda não foi observada.
+Foram discutidos **3.23 e 3.25–3.27**, seguidos de dois exercícios curtos de continuidade pela definição $\varepsilon$–$\delta$. A sessão terminou com uma revisão de limites e continuidade **apenas para leitura**, sem novos exercícios.
 
-O próximo exercício é o **3.23**. A revisão da limitação de $g$ no **3.19(c)** foi adiada por decisão do aluno. No **3.20**, o limite em $1^+$ e a alínea (c) continuam sem resolução discutida registada.
+O aluno indicou um mini teste sobre limites e continuidade para o dia seguinte, **27 de outubro**, com duração aproximada de 15 minutos. Não foram fornecidos critérios do docente nem um enunciado de avaliação. A revisão não é uma previsão das perguntas.
+
+Na próxima sessão, retomar a partir das dúvidas que o aluno trouxer. O **3.24 não foi discutido** e continua pendente. A revisão da limitação de $g$ no **3.19(c)** foi adiada por decisão do aluno; no **3.20**, o limite em $1^+$ e a alínea (c) continuam sem resolução discutida registada.
 
 Esta atualização foi pedida explicitamente no final da sessão. Não há envio automático previsto para a próxima sessão.
 
@@ -18,8 +20,32 @@ Esta atualização foi pedida explicitamente no final da sessão. Não há envio
 - [Continuidade e prolongamento](notas/continuidade-e-prolongamento.md): alíneas discutidas de 3.12 e interpretação de 3.13(a).
 - [Prolongamentos, continuidade e Bolzano](notas/prolongamentos-e-bolzano.md): 3.13–3.17 e 3.21–3.22.
 - [Estudo de funções](notas/estudo-de-funcoes-3-18-a-3-20.md): 3.18–3.19 e partes trabalhadas de 3.20.
+- [Bolzano, Weierstrass e pontos fixos](notas/bolzano-weierstrass-e-pontos-fixos.md): 3.23 e 3.25–3.27.
+- [Continuidade pela definição ε–δ](notas/continuidade-epsilon-delta.md): os dois exemplos de treino da sessão, sem os atribuir à ficha.
+- [Revisão curta de limites e continuidade](notas/revisao-limites-e-continuidade.md): leitura final solicitada pelo aluno.
 
 As alíneas confirmadas na ficha não são automaticamente consideradas resolvidas. As notas são um registo das sessões, não um solucionário completo.
+
+## Evidências da sessão de 26 de outubro
+
+| Exercício ou tema | Estado e evidência observada |
+| --- | --- |
+| 3.23(a) | Depois da fatorização apresentada com ajuda, o aluno identificou corretamente os sinais dos limites nos dois infinitos para grau ímpar. Afinada a escrita: o fator tende a 1, não é igual a 1 para todo x. Completada a passagem dos limites à escolha de extremos finitos e a Bolzano. |
+| 3.23(b) | O aluno reconheceu que ambos os limites são +∞ e construiu um argumento para uma raiz. Acrescentados com ajuda o posicionamento dos extremos e a segunda aplicação de Bolzano, do outro lado de x₀, para duas raízes distintas. |
+| 3.24 | Sem tentativa ou resolução discutida registada nesta sessão; não considerar concluído. |
+| 3.25(a,c) | Valores g(0)=0 e g(3)=3 apresentados corretamente. O aluno calculou os laterais em 2 e identificou corretamente a falha de continuidade necessária para explicar a não aplicação de Bolzano em [0,3]. |
+| 3.25(b) | A ideia de resolver a equação por ramos era válida. Corrigidos o sinal ao transpor 3/2, a confusão entre função original e auxiliar, o respeito pela região de cada ramo e a inferência de falsidade apenas por não poder aplicar Bolzano. A conclusão falsa foi demonstrada com ajuda. |
+| 3.25(d) | O aluno propôs corretamente usar continuidade da expressão polinomial no intervalo e um teorema de existência de extremos. Afinadas a restrição a [0,2], a designação Weierstrass e a prova de positividade por x(2−x). O aluno distinguiu depois a existência de extremos da necessidade de os calcular. |
+| Linguagem dos extremos | O aluno questionou a correção excessiva da frase «pelo menos um». Ficou esclarecido que ela não torna a existência errada; os valores extremos são únicos, mas podem ser atingidos em vários pontos. Não repetir essa correção como se fosse um erro matemático. |
+| 3.26(a) | O aluno sugeriu por iniciativa própria h(x)=f(x)−x. A origem dos sinais nos extremos foi explicada usando a condição sobre as saídas. Depois reconheceu que um extremo com h=0 já dá ponto fixo; consolidada a separação entre esse caso e o produto estritamente negativo para Bolzano. |
+| 3.26(b) | O aluno propôs a constante 1 e identificou a saída fora do intervalo. O exemplo (x+1)/2 foi apresentado com ajuda; persistiram dúvidas sobre ter de preencher todo o conjunto de chegada. Foram também discutidas constantes permitidas, x−1 e x+1. Não houve reconstrução autónoma completa do exemplo. |
+| 3.27(a) | O aluno indicou falso, mas confundiu domínio, imagem, valores dos extremos e pontos onde são atingidos. A contradição entre imagem (0,1) e Weierstrass foi explicada em várias etapas. Continua a requerer consolidação; não marcar como prova autónoma. |
+| 3.27(b) | O aluno afirmou corretamente que o módulo de uma função contínua é contínuo. A justificação por composição com o valor absoluto foi apresentada, dispensando uma nova divisão em casos. |
+| 3.27(c) | A imagem [0,6] foi explicada com ajuda. O aluno corrigiu a transcrição do assistente: os ramos usam [0,2) e [2,4], e as imagens são [0,4) e [4,6]. A ficha confirmou a correção. |
+| 3.27(d,e) | O aluno pediu respostas breves. Foi dado um contraexemplo definido por ramos com valores −1 e 1. Surgiram dúvidas persistentes sobre a definição dessa função, o módulo da saída e a função módulo de x; a explicação foi interrompida quando o aluno pediu treino ε–δ. Não assumir compreensão consolidada do contraexemplo. |
+| ε–δ: f(x)=3x−2 em 1 | O aluno encontrou δ=ε/3 corretamente e apresentou a estrutura dos quantificadores. Afinadas a manutenção do módulo, a escolha seguida da verificação e a distinção entre equivalência, implicação e «portanto». |
+| ε–δ: g(x)=x² em 0 | O aluno começou por decompor corretamente o módulo do produto, mas propôs δ=ε/abs(x). Explicado que δ não pode depender do x variável, e apresentada a escolha √ε com a prova. A razão de abs(3)=3 foi corrigida: não decorre de ε e δ serem positivos. Sem nova tentativa autónoma. |
+| Revisão final | Produzida a pedido uma síntese para leitura, sem exercícios adicionais. Corrigida a formulação da propriedade de composição e retomadas as condições dos métodos já discutidos. A leitura não é registada como nova evidência de domínio. |
 
 ## Evidências da sessão de 25 de outubro
 
@@ -81,6 +107,11 @@ Estes estados descrevem o que foi observado, sem transformar uma explicação co
 - **Limites e operações:** calcular separadamente uma parcela convergente é útil; não escrever uma diferença de limites se um deles não existe. Pode usar-se uma contradição ou avaliar a função completa ao longo de sucessões.
 - **Limitação e imagem:** encontrar quaisquer cotas globais basta para provar limitação. Uma estimativa como módulo de g menor ou igual a 2 não identifica, por si só, a imagem exata nem os extremos.
 - **Bolzano:** verificar continuidade no intervalo fechado e sinais opostos nos extremos. Para garantir dois zeros distintos, obter dois intervalos abertos disjuntos onde aplicar a conclusão. O teorema garante existência, não unicidade.
+- **Weierstrass e restrições:** verificar continuidade no intervalo fechado e limitado. Não é preciso calcular os extremos para provar existência; distinguir o seu valor dos pontos onde são atingidos.
+- **Notação de funções:** em f:A→B, o domínio declarado é A e a imagem está contida em B; f(A)=B afirma igualdade da imagem. O mesmo número pode aparecer como entrada ou saída sem ter o mesmo papel.
+- **Pontos fixos:** transformar f(c)=c em h(c)=0 com h(x)=f(x)−x; obter os sinais a partir das saídas permitidas e separar os casos de igualdade nos extremos.
+- **Contraexemplos com módulo:** dizer primeiro como a função foi definida; calcular a saída e só depois aplicar o valor absoluto. O módulo pode ocultar um salto de sinal.
+- **Definição ε–δ:** a escolha de δ vem depois de ε e antes de considerar todos os x próximos do ponto. δ pode depender de ε, mas não do x variável.
 
 ## Material anterior preservado
 
@@ -92,7 +123,12 @@ Os apontamentos mantêm as explicações sobre diferenças de potências, cancel
 
 - [x] Calcular os laterais de 3.12(e) e concluir o 3.13(a).
 - [x] Discutir o prolongamento do 3.13(b), incluindo o domínio original e o domínio do prolongamento.
-- [ ] Retomar a ficha no 3.23, quando o aluno quiser.
+- [x] Discutir 3.23 e 3.25–3.27, com os níveis de ajuda registados acima.
+- [ ] 3.24: sem resolução discutida registada.
+- [ ] Retomar as dúvidas que o aluno trouxer depois do mini teste, sem presumir o resultado nem impor novos exercícios durante uma revisão apenas para leitura.
+- [ ] Consolidar domínio/conjunto de chegada/imagem, valores extremos/pontos onde são atingidos e a leitura de f(A).
+- [ ] Rever o contraexemplo de 3.27(d,e), começando pela definição de h e pela aplicação do módulo às suas saídas.
+- [ ] Observar uma nova tentativa de continuidade pela definição, com δ independente de x, quando o aluno quiser voltar a praticar.
 - [ ] Rever 3.19(c), função g: origem da desigualdade do seno, substituição t=1/x e desigualdade triangular. Respeitar a decisão de adiar; não reiniciar essa explicação sem oportunidade pertinente.
 - [ ] 3.20(b), limite em 1+, e 3.20(c): sem resolução discutida registada.
 - [ ] Consolidar a prova de continuidade do máximo pontual (3.14) e a escolha dos intervalos de Bolzano (3.22), numa futura tentativa do aluno.
@@ -112,9 +148,19 @@ R1–R3 continuam sem soluções publicadas e sem tentativa registada. Não fora
 - Explicar a origem de uma escolha antes da fórmula geral. Quando houver confusão, reduzir a explicação a uma ideia de cada vez e mostrar inversões e substituições explicitamente.
 - Desde 25 de outubro: preferir conclusões curtas para frequência, depois de os cálculos estarem apresentados. Usar a justificação geral de operações e composições de funções contínuas onde for válida, acrescentando a verificação das junções quando necessário.
 - A ficha usa «contradomínio» no sentido de imagem. Acompanhar essa terminologia, distinguindo-a do domínio, sem transformar a correção numa discussão de nomenclatura.
+- Explicar a diferença entre a seta f:A→B e uma igualdade como f(A)=B quando ela for necessária para interpretar o pedido.
+- Não corrigir formulações de existência válidas por mera preferência estilística; explicitar a diferença entre valores e pontos de extremo.
+- Respeitar o pedido de revisão apenas para leitura no final da sessão; não acrescentar exercícios nessa situação.
 - Preservadas as orientações de compreensão pelos fundamentos adicionadas ao repositório em 22 de outubro.
 
-## Verificação da atualização publicada em 26 de outubro de 2026
+## Verificação da atualização da sessão de 26 de outubro de 2026
+
+- Enunciados de 3.23 e 3.25–3.27 conferidos nas páginas físicas 10–11 da ficha. Preservada a correção dos intervalos de 3.27(c), assinalada pelo aluno.
+- Nos seis ficheiros desta atualização, validadas 50 fórmulas em destaque e 277 expressões inline com KaTeX; conferidos 36 links internos, as barras invertidas e a ausência de caracteres de controlo indevidos.
+- Inspecionada a apresentação local de oito fórmulas, incluindo a matriz de referência, as funções por ramos, o módulo das saídas, os quantificadores ε–δ e os limites notáveis.
+- A apresentação diretamente no GitHub permanece por conferir: a tentativa no navegador falhou por um erro de certificado. A validação local e a leitura do conteúdo pela ligação autorizada não equivalem à pré-visualização do GitHub.
+
+## Verificação da atualização da sessão de 25 de outubro, publicada em 26 de outubro de 2026
 
 - Enunciados de 3.13–3.22 conferidos na ficha, incluindo as páginas físicas 9–10.
 - Revistos os domínios, as condições de continuidade e os argumentos de Bolzano. As alíneas não trabalhadas e a revisão adiada de 3.19(c) permanecem identificadas.

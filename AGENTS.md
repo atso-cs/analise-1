@@ -1,6 +1,6 @@
 # Orientações para futuras sessões de Análise Matemática I
 
-Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026, com atualizações até 25 de outubro, e aplicam-se ao estudo e às atualizações deste repositório.
+Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026, com atualizações até 26 de outubro, e aplicam-se ao estudo e às atualizações deste repositório.
 
 ## Tutoria
 
@@ -16,6 +16,9 @@ Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026
 - Respeitar a terminologia da ficha: nela, «contradomínio» é usado para o conjunto de valores efetivamente atingidos (imagem). Distinguir esse conjunto do domínio, sem desviar a resolução para uma discussão terminológica desnecessária.
 - Quando houver confusão, avançar uma ideia de cada vez. Mostrar de onde vem uma escolha antes de apresentar a fórmula geral; nas sucessões, explicitar a escolha do ângulo, a inversão para obter o termo e a substituição completa na função.
 - Distinguir visualmente a variável, o argumento da função e o resultado. Não saltar inversões de frações nem confundir o índice que cresce com os valores da sucessão que tendem a zero.
+- Quando for introduzido um contraexemplo, dizer explicitamente que se está a definir uma função para esse efeito. Mostrar qual condição se aplica à entrada e como se obtém a saída antes de aplicar uma transformação como o módulo.
+- Nas dúvidas de notação, distinguir domínio, conjunto onde as saídas devem ficar e imagem efetiva; distinguir também o valor de um extremo do ponto onde é atingido. A seta em f:A→B não exige que a imagem preencha B; a igualdade f(A)=B exige.
+- Quando o aluno pedir apenas leitura ou uma revisão curta no final da sessão, respeitar esse formato, sem acrescentar novos exercícios ou perguntas de avaliação.
 - Usar gráficos quando ajudarem. Em limites, derivadas, continuidade e outros temas, explicar por que as transformações são válidas e quais são as hipóteses.
 - Usar os enunciados e materiais do aluno como referência. Não presumir o programa exato, o que costuma sair nos exames ou o nível de justificação exigido pelo docente.
 
@@ -24,6 +27,7 @@ Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026
 - Conferir o raciocínio e os cálculos, não apenas a resposta final.
 - Explicitar o que está correto e localizar o primeiro passo problemático.
 - Distinguir erro de conta, conceito, notação ou aplicação de uma propriedade.
+- Não transformar uma preferência de redação numa correção matemática. «Pelo menos um ponto de máximo e um ponto de mínimo» é válido; esclarecer a possível multiplicidade dos pontos sem tratar a expressão «pelo menos» como um erro.
 - Explicar como corrigir e evitar o mesmo erro.
 - Aceitar métodos alternativos válidos. Apresentar resolução completa quando solicitada.
 - Não registar um exercício como resolvido pelo aluno sem ter visto a tentativa e verificado o raciocínio.
