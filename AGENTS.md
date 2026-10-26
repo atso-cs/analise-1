@@ -1,6 +1,6 @@
 # Orientações para futuras sessões de Análise Matemática I
 
-Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026, com atualizações até 24 de outubro, e aplicam-se ao estudo e às atualizações deste repositório.
+Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026, com atualizações até 25 de outubro, e aplicam-se ao estudo e às atualizações deste repositório.
 
 ## Tutoria
 
@@ -12,6 +12,8 @@ Estas preferências foram indicadas pelo aluno a partir de 19 de outubro de 2026
 - Mostrar erros comuns e formas de verificar um resultado.
 - Terminar a introdução de um tema com dois ou três exercícios de dificuldade progressiva, inicialmente sem soluções. Aguardar a tentativa para corrigir em conjunto.
 - Não impor esta estrutura a perguntas pontuais: responder diretamente, com o detalhe necessário, evitando repetir o que já foi compreendido.
+- Nas resoluções para frequência, preferir conclusões curtas depois dos cálculos. A justificação geral «por resultar de operações e composições de funções contínuas» é adequada onde essas operações são válidas; nas mudanças de ramo, verificar também os limites pertinentes e o valor no ponto. Não exigir que o aluno repita toda a verificação na conclusão.
+- Respeitar a terminologia da ficha: nela, «contradomínio» é usado para o conjunto de valores efetivamente atingidos (imagem). Distinguir esse conjunto do domínio, sem desviar a resolução para uma discussão terminológica desnecessária.
 - Quando houver confusão, avançar uma ideia de cada vez. Mostrar de onde vem uma escolha antes de apresentar a fórmula geral; nas sucessões, explicitar a escolha do ângulo, a inversão para obter o termo e a substituição completa na função.
 - Distinguir visualmente a variável, o argumento da função e o resultado. Não saltar inversões de frações nem confundir o índice que cresce com os valores da sucessão que tendem a zero.
 - Usar gráficos quando ajudarem. Em limites, derivadas, continuidade e outros temas, explicar por que as transformações são válidas e quais são as hipóteses.

@@ -1,18 +1,14 @@
 # Progresso de estudo — Análise Matemática I
 
-Última atualização: **24 de outubro de 2026**.
+Última atualização: **26 de outubro de 2026**, com o estudo da sessão de **25 de outubro**.
 
 ## Onde parámos
 
-**3.13(a): interpretação de prolongamento por continuidade à origem**, aplicado à função de 3.12(e):
+**3.22: demonstrar que $x-\ln x=2$ tem pelo menos duas soluções.** Foi apresentada uma prova por Bolzano, escolhendo $e^{-2}$, $1$ e $e^2$ para obter sinais positivo, negativo e positivo. O aluno encerrou a sessão depois dessa explicação; uma nova execução autónoma ainda não foi observada.
 
-```math
-f(x)=\frac1{1-e^{1/x}}.
-```
+O próximo exercício é o **3.23**. A revisão da limitação de $g$ no **3.19(c)** foi adiada por decisão do aluno. No **3.20**, o limite em $1^+$ e a alínea (c) continuam sem resolução discutida registada.
 
-O aluno relacionou o pedido com escolher uma constante num ramo. Foi explicado que se procura um valor real para a função em zero que coincida com os dois limites laterais. **Os limites laterais desta função e a conclusão sobre a existência do prolongamento ainda não foram calculados na conversa.** Retomar pela tentativa do aluno.
-
-A próxima sessão está prevista pelo aluno para **25 de outubro de 2026**. É uma indicação de continuidade do estudo, não uma atualização automática: o GitHub só volta a ser atualizado quando o aluno pedir.
+Esta atualização foi pedida explicitamente no final da sessão. Não há envio automático previsto para a próxima sessão.
 
 ## Materiais e notas
 
@@ -20,8 +16,31 @@ A próxima sessão está prevista pelo aluno para **25 de outubro de 2026**. É 
 - [Limites e radicais](notas/limites-e-radicais.md): material anterior preservado; enunciados de 3.8(c), (d) e (j) agora confirmados.
 - [Limites trigonométricos, laterais e sucessões](notas/limites-trigonometricos-e-sucessoes.md): 3.8(o–r), 3.9(b), 3.10 e alíneas discutidas de 3.11.
 - [Continuidade e prolongamento](notas/continuidade-e-prolongamento.md): alíneas discutidas de 3.12 e interpretação de 3.13(a).
+- [Prolongamentos, continuidade e Bolzano](notas/prolongamentos-e-bolzano.md): 3.13–3.17 e 3.21–3.22.
+- [Estudo de funções](notas/estudo-de-funcoes-3-18-a-3-20.md): 3.18–3.19 e partes trabalhadas de 3.20.
 
 As alíneas confirmadas na ficha não são automaticamente consideradas resolvidas. As notas são um registo das sessões, não um solucionário completo.
+
+## Evidências da sessão de 25 de outubro
+
+| Exercícios | Estado e evidência observada |
+| --- | --- |
+| 3.13(a) | O aluno apresentou os laterais 0 e 1 e concluiu corretamente que nenhum valor de K dá um prolongamento contínuo. Afinada a distinção entre o limite 0 e a aproximação por valores negativos. |
+| 3.13(b) | Fatorização, domínio e prolongamento discutidos com ajuda. O aluno reconstruiu a condição K=0 e a continuidade do prolongamento em todos os reais exceto a raiz cúbica negativa de 3. Consolidar que cancelar um fator não muda o domínio original. |
+| 3.14 | A identidade do máximo pontual foi explicada. Houve dúvidas persistentes sobre a igualdade entre f(a), g(a) e h(a) e sobre separar casos; a prova direta pela expressão com módulo foi apresentada com ajuda substancial. A conclusão correta é limite de h igual a h(a), sem exigir f(a)=g(a). |
+| 3.15 | O aluno apresentou limite 1/4 e m=1/4 corretamente. Corrigida a referência ao domínio: começa em −2, não é todo R. A ausência de um valor fixado para m não implica, por si só, descontinuidade. |
+| 3.16 | O aluno transformou a condição com módulo, calculou os valores nas junções e montou e resolveu o sistema corretamente: a=−3, b=4. Afinada apenas a justificação final. |
+| 3.17 | O aluno obteve m=0 e k=−1/2. Corrigida a escolha dos lados pertinentes: em [0,1], usam-se o lateral direito em 0 e o esquerdo em 1. Dispensável repetir os cálculos na conclusão. |
+| 3.18(a,b) | O aluno obteve r=2 e identificou a descontinuidade em −1. Corrigida uma cadeia de desigualdades: o lateral esquerdo é igual a f(−1)=0; só o direito difere. |
+| 3.18(c) | Valores propostos corretamente: contradomínio/imagem [−2,2], supremo e máximo 2, ínfimo e mínimo −2. Completada a justificação de que todos os valores do intervalo são atingidos. |
+| 3.18(d) | O aluno calculou o limite 0 em −∞ e identificou a oscilação em +∞. A construção das duas sucessões com imagens 2 e −2 foi apresentada com ajuda. |
+| 3.19(a,b) | Continuidade no domínio reconhecida. O aluno calculou o limite 0 de f na origem e aplicou confronto à parcela x sin(1/x) de g. Construiu sucessões para o cosseno; corrigidos o sinal na função completa e a notação n→∞. O método de tratar a parcela que tende a zero separadamente é válido, desde que não se subtraiam formalmente limites inexistentes. |
+| 3.19(c), função f | O aluno calculou limites 0 na origem e 1 no infinito e identificou a imagem (0,1). A desigualdade direta 0<f(x)<1 completa a prova de limitação; limites nos extremos, isoladamente, não bastam em geral. |
+| 3.19(c), função g | O aluno obteve limite 0 nos dois infinitos por mudança de variável. Foi apresentada a estimativa de módulo por 2; surgiram dúvidas sobre a desigualdade do seno e a triangular. O aluno decidiu adiar esta parte. Revisão pendente, sem domínio autónomo demonstrado. |
+| 3.20(a) | O aluno determinou [0,1) união (1,+∞) e explicou por que a interseção desses intervalos é vazia. |
+| 3.20(b), +∞ e 1− | O aluno obteve −∞ em 1−. Em +∞, corrigida a derivada da raiz em L’Hôpital; depois reconstruiu a divisão de numerador e denominador por x e o resultado 0. O lateral em 1+ não foi trabalhado na conversa. |
+| 3.21 | Depois da discussão algébrica e da condição para dividir pelo cosseno, o aluno reconstruiu corretamente a prova por Bolzano: continuidade em [0,π], valores 1 e −1 e pelo menos um zero no interior. |
+| 3.22 | Corrigida a leitura do enunciado: logaritmo, não exponencial. Apresentada a escolha de potências de e e a aplicação de Bolzano em dois intervalos. Visto com ajuda; sem nova tentativa do aluno antes de encerrar. |
 
 ## Evidências das sessões de 20 e 24 de outubro
 
@@ -43,7 +62,7 @@ As alíneas confirmadas na ficha não são automaticamente consideradas resolvid
 | 3.12(g) | Fatorização e critério corretos; o aluno reconsiderou o domínio. Limite corrigido para 8, diferente de f(4)=1. |
 | 3.12(h) | Laterais e valor no ponto calculados como −a; domínio corrigido para todos os reais por respeitar as condições de cada ramo. |
 | 3.12(i) | Depois da explicação do confronto, o aluno apresentou uma prova correta usando a função inteira entre −x²−2x e x²−2x. Reconstruído com ajuda; transferência para um exercício novo ainda por observar. |
-| 3.13(a) | Apenas interpretação do enunciado e da escolha de uma constante. A tentativa dos laterais permanece pendente. |
+| 3.13(a) | Até 24 de outubro, apenas interpretação do enunciado e da escolha de uma constante. A tentativa dos laterais foi apresentada em 25 de outubro, como registado acima. |
 
 Estes estados descrevem o que foi observado, sem transformar uma explicação compreendida ou repetida numa declaração de domínio autónomo.
 
@@ -58,6 +77,10 @@ Estes estados descrevem o que foi observado, sem transformar uma explicação co
 - **Domínio e continuidade:** uma função pode ser contínua em todo o seu domínio e não estar definida num ponto excluído. Num ramo, só contam as restrições da expressão na região onde esse ramo é usado.
 - **Junções:** justificar a continuidade no interior de cada região pelas operações e verificar separadamente a igualdade dos limites pertinentes com o valor no ponto.
 - **Prolongamento:** acrescentar um valor no ponto excluído; só há prolongamento contínuo real quando o limite nesse ponto existe e é finito.
+- **Máximo pontual:** h(x) escolhe o maior entre f(x) e g(x) no mesmo x. A continuidade exige limite de h igual a h(a), não igualdade entre f(a) e g(a).
+- **Limites e operações:** calcular separadamente uma parcela convergente é útil; não escrever uma diferença de limites se um deles não existe. Pode usar-se uma contradição ou avaliar a função completa ao longo de sucessões.
+- **Limitação e imagem:** encontrar quaisquer cotas globais basta para provar limitação. Uma estimativa como módulo de g menor ou igual a 2 não identifica, por si só, a imagem exata nem os extremos.
+- **Bolzano:** verificar continuidade no intervalo fechado e sinais opostos nos extremos. Para garantir dois zeros distintos, obter dois intervalos abertos disjuntos onde aplicar a conclusão. O teorema garante existência, não unicidade.
 
 ## Material anterior preservado
 
@@ -67,8 +90,12 @@ Os apontamentos mantêm as explicações sobre diferenças de potências, cancel
 
 ## Pendências
 
-- [ ] Tentar os dois limites laterais de 3.12(e) e concluir o 3.13(a).
-- [ ] Avançar para 3.13(b) e outros exercícios que o aluno escolher.
+- [x] Calcular os laterais de 3.12(e) e concluir o 3.13(a).
+- [x] Discutir o prolongamento do 3.13(b), incluindo o domínio original e o domínio do prolongamento.
+- [ ] Retomar a ficha no 3.23, quando o aluno quiser.
+- [ ] Rever 3.19(c), função g: origem da desigualdade do seno, substituição t=1/x e desigualdade triangular. Respeitar a decisão de adiar; não reiniciar essa explicação sem oportunidade pertinente.
+- [ ] 3.20(b), limite em 1+, e 3.20(c): sem resolução discutida registada.
+- [ ] Consolidar a prova de continuidade do máximo pontual (3.14) e a escolha dos intervalos de Bolzano (3.22), numa futura tentativa do aluno.
 - [ ] Rever a notação dos limites de sucessões numa oportunidade pertinente, sem repetir toda a explicação se a tentativa já mostrar compreensão.
 - [ ] 3.11(c,e): sem resolução discutida registada; não considerar concluídas.
 - [ ] 3.8(c,j): enunciados confirmados, mas sem tentativa verificável recuperada; resolver ou conferir quando o aluno os retomar.
@@ -83,9 +110,18 @@ R1–R3 continuam sem soluções publicadas e sem tentativa registada. Não fora
 
 - Desde 24 de outubro: notação internacional em LaTeX, com $\sin$, $\tan$, $\arcsin$ e $\arctan$, no chat e nas notas.
 - Explicar a origem de uma escolha antes da fórmula geral. Quando houver confusão, reduzir a explicação a uma ideia de cada vez e mostrar inversões e substituições explicitamente.
+- Desde 25 de outubro: preferir conclusões curtas para frequência, depois de os cálculos estarem apresentados. Usar a justificação geral de operações e composições de funções contínuas onde for válida, acrescentando a verificação das junções quando necessário.
+- A ficha usa «contradomínio» no sentido de imagem. Acompanhar essa terminologia, distinguindo-a do domínio, sem transformar a correção numa discussão de nomenclatura.
 - Preservadas as orientações de compreensão pelos fundamentos adicionadas ao repositório em 22 de outubro.
 
-## Verificação desta atualização — 24 de outubro de 2026
+## Verificação da atualização publicada em 26 de outubro de 2026
+
+- Enunciados de 3.13–3.22 conferidos na ficha, incluindo as páginas físicas 9–10.
+- Revistos os domínios, as condições de continuidade e os argumentos de Bolzano. As alíneas não trabalhadas e a revisão adiada de 3.19(c) permanecem identificadas.
+- Nos seis ficheiros desta atualização, validadas 114 fórmulas em destaque e 403 expressões inline com KaTeX; conferidos 35 links internos, os blocos math e a ausência de caracteres de controlo indevidos.
+- A validação das fórmulas não equivale à conferência visual da apresentação no GitHub. Essa conferência permanece pendente: o navegador disponível não dispõe da sessão autenticada do repositório privado.
+
+## Verificação da atualização anterior — 24 de outubro de 2026
 
 - Conferidos os enunciados no PDF, incluindo inspeção visual das páginas numeradas 5 e 6.
 - Corrigidas as correspondências antigas de 3.8 e o valor absoluto de 3.12(f).

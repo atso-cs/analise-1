@@ -339,7 +339,7 @@ A forma habitual de L’Hôpital para indeterminações $0/0$ ou $\infty/\infty$
 
 ## 11. 3.13(a): interpretar o prolongamento por continuidade
 
-**Estado: enunciado interpretado; cálculo dos limites laterais ainda pendente.**
+**Estado no final de 24 de outubro:** enunciado interpretado; cálculo dos limites laterais ainda pendente. **Atualização de 25 de outubro:** o aluno calculou os dois laterais e concluiu que não existe prolongamento contínuo. A resolução está nas [notas de prolongamentos e Bolzano](prolongamentos-e-bolzano.md).
 
 O exercício pede para analisar a existência de um prolongamento por continuidade à origem da função da alínea 3.12(e):
 
@@ -371,9 +371,9 @@ Se os dois laterais forem iguais a um mesmo número real $L$, escolhemos $K=L$. 
 
 «À origem» refere-se aqui ao ponto $x=0$; não impõe $K=0$ nem exige que o gráfico passe por $(0,0)$.
 
-**Próximo passo previsto para a sessão de 25 de outubro de 2026:** o aluno tentar os dois limites laterais de 3.12(e), compará-los e concluir sobre 3.13(a). Os resultados não são antecipados nestes apontamentos. O 3.13(b) também não foi resolvido nesta conversa.
+O passo previsto para 25 de outubro foi realizado: os laterais do 3.13(a) são diferentes. O 3.13(b) também foi discutido nessa sessão, com prolongamento contínuo obtido ao atribuir o valor zero na origem. Ver as [resoluções de 3.13(a,b)](prolongamentos-e-bolzano.md).
 
-## 12. Evidências e pontos a retomar
+## 12. Evidências da sessão de 24 de outubro
 
 | Exercício | O que foi observado na conversa |
 | --- | --- |
@@ -383,6 +383,6 @@ Se os dois laterais forem iguais a um mesmo número real $L$, escolhemos $K=L$. 
 | 3.12(g) | Fatorização e critério de continuidade apresentados; domínio reconsiderado pelo aluno e cálculo do limite corrigido para $8$. |
 | 3.12(h) | Laterais e valor no ponto calculados como $-a$; domínio corrigido com ajuda, respeitando as regiões dos ramos. |
 | 3.12(i) | Método discutido com ajuda; depois o aluno reconstruiu uma prova correta pelo confronto aplicado à função inteira. Persistiram dúvidas de notação ao retomar sucessões. |
-| 3.13(a) | O aluno relacionou prolongamento com a escolha de uma constante num ramo; o significado do pedido foi explicado. Ainda sem tentativa dos limites laterais. |
+| 3.13(a) | Em 24 de outubro, o aluno relacionou prolongamento com a escolha de uma constante num ramo; o significado do pedido foi explicado, ainda sem tentativa dos laterais. Em 25 de outubro, apresentou os laterais e a conclusão correta. |
 
-Estas evidências não equivalem a domínio autónomo de todo o tema. Na próxima sessão, retomar o exercício pendente e verificar a aplicação das ideias nas tentativas efetivamente apresentadas.
+Estas evidências não equivalem a domínio autónomo de todo o tema. Para o ponto atual de retoma e as pendências, consultar [PROGRESSO.md](../PROGRESSO.md).
